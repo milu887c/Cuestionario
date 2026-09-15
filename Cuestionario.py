@@ -49,19 +49,20 @@ while True:
         print('Preguntas de geografía:\n¿Cuál es la capital de Francia?\n')
         preguntaG = str(input('Respuesta: '))
         
-        while preguntaG != "Paris":
+        while preguntaG.lower() != "paris":
             preguntaG = str(input('Respuesta incorrecta, intenta de nuevo:'))
 
-        if preguntaG == "Paris":
+        if preguntaG.lower() == "paris":
             system('cls')
             input('Respuesta correcta! Pasemos a la siguiente')
             
             print('Preguntas de geografía:\n¿Cuál es la capital de Italia?\n')
             preguntaG2 = str(input('Respuesta: '))
-            while preguntaG2 != 'Roma':
+
+            while preguntaG2.lower() != 'roma':
                 preguntaG2 = str(input('Respuesta incorrecta, intenta de nuevo: '))
             
-            if preguntaG2 == 'Roma':
+            if preguntaG2.lower() == 'roma':
                 system('cls')
                 input('Respuesta correcta! Pasemos a la siguiente')
 
@@ -69,10 +70,10 @@ while True:
             print('Preguntas de geografía:\n¿Cuál es la capital de Colombia?\n')
             preguntaG3 = str(input('Respuesta: '))
 
-            while preguntaG3 != 'Bogota':
+            while preguntaG3.lower() != 'bogota':
                 preguntaG3 = str(input('Respuesta incorrecta, intenta de nuevo: '))
 
-            if preguntaG3 == 'Bogota':
+            if preguntaG3.lower() == 'bogota':
                 print('Respuesta correcta! Has terminado la sección de geografía')
                 
 #==========================SECCIÓN DE INGLÉS================================
@@ -81,31 +82,31 @@ while True:
         print('Preguntas de Inglés:\n¿Que significa "Water"?\n')
         preguntaI1 = str(input('Respuesta: '))
         
-        while preguntaI1 != "Agua":
+        while preguntaI1.lower() != "agua":
             preguntaI1 = str(input('Respuesta incorrecta, intenta de nuevo:'))
 
-        if preguntaI1 == "Agua":
+        if preguntaI1.lower() == "agua":
             system('cls')
             input('Respuesta correcta! Pasemos a la siguiente')
             
             print('Preguntas de Inglés:\n¿Qué significa "Hello"?\n')
             preguntaI2 = str(input('Respuesta: '))
 
-            while preguntaI2 != 'Hola':
+            while preguntaI2.lower() != 'hola':
                 preguntaI2 = str(input('Respuesta incorrecta, intenta de nuevo: '))
             
-            if preguntaI2 == 'Hola':
+            if preguntaI2.lower() == 'hola':
                 system('cls')
                 input('Respuesta correcta! Pasemos a la siguiente')
 
             print('Preguntas de Inglés:\n¿Qué significa "Good morning?\n')
             preguntaI3 = str(input('Respuesta: '))
 
-            while preguntaI3 != 'Buenos dias':
+            while preguntaI3.lower() != 'buenos dias':
                 preguntaI3 = str(input('Respuesta incorrecta, intenta de nuevo: '))
 
             system('cls')
-            if preguntaI3 == 'Buenos dias':
+            if preguntaI3.lower() == 'buenos dias':
                 print('Respuesta correcta! Has terminado la sección de geografía')
 
 #FINAL DEL CUESTIONARIO
